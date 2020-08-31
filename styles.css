@@ -16,3 +16,8 @@ body {
     width:640px;
     height:360px;
   }
+/*added margins to separate cards*/
+  .card{
+    margin-left: 10px;
+    margin-right: 10px;
+  }

@@ -51,10 +51,10 @@
         <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
           <div class="column">
             <h2 class="bg-light" id="abtMe">About Me</h2>
-            <div class="row justify-content-center ">
+            <div class="row justify-content-center "> <!--Me parece que se desperdicia mucho espacio con tu foto y el texto centrado-->
               <div class="col-12 col-md-5 col-lg-3 order-1 order-lg-2 vertical-align">
                 <h3 class="justify-content-center">Welcome!</h3>
-                <img src="https://iili.io/dNuVUX.md.jpg" class="img-fluid" alt="Responsive image">
+                <img src="https://iili.io/dNuVUX.md.jpg" class="img-fluid" alt="Responsive image"> <!--El texto alternativo deberia ser mas significativo-->
                 <div class="row container-fluid">
                      <p> I am a Colombian Software Engineer student at the University of Los Andes in Bogotá. In this webpage, build solely in 
                         HTML, CSS and Bootstrap, I am going to show you some of my interesting software projects, some personal skills, hobbies and general interests
@@ -68,7 +68,8 @@
                             <a onclick="window.open('https://www.linkedin.com/in/david-martinez-g')" class="btn  btn-secondary bg-primary" role="button">LinkedIn</a>
                             <a onclick="window.open('https://www.instagram.com/david_martinezg99/')" class="btn  btn-secondary bg-primary" role="button">Instagram</a>
                             <a onclick="window.open('https://www.facebook.com/profile.php?id=100000779910034&viewas=100000686899395')" class="btn  btn-secondary bg-primary" role="button">Facebook</a>
-                         </div>
+                         <!--para poner que el link se abra en otra ventana basta con poner target=_blank-->
+                          </div>
                   </div>
 
               </div>
@@ -84,7 +85,7 @@
             <h2 class="bg-light" id="intProj">Interesting Projects</h2>
             <div class="card-group">
                 <div class="card">
-                  <img src="https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="...">
+                  <img src="https://images.unsplash.com/photo-1571786256017-aee7a0c009b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="..."><!--No hay texto alternativo -->
                   <div class="card-body">
                     <h5 class="card-title"> Server information API</h5>
                     <p class="card-text">This Web API developed using Golang as the backend language and VueJS as frontend framework, enables a person to search the information of the servers a specific domain is using to run its services.</p>
@@ -92,7 +93,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="https://images.unsplash.com/photo-1587573578274-184d5ccabfc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="...">
+                  <img src="https://images.unsplash.com/photo-1587573578274-184d5ccabfc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" class="card-img-top" alt="..."><!--No hay texto alternativo -->
                   <div class="card-body">
                     <h5 class="card-title">Optimal Route</h5>
                     <p class="card-text">This app plans an optimal route given a series of user inputted addresses. It uses Google Maps API library.</p>
@@ -101,6 +102,7 @@
                 </div>
                 <div class="card">
                   <img src="https://images.unsplash.com/photo-1512428559087-560fa5ceab42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+                  <!--No hay texto alternativo -->
                   <div class="card-body">
                     <h5 class="card-title">Socially responsible Marketplace </h5>
                     <p class="card-text">I am currently working on a marketplace app that gives small businesses and entrepreneurs a secure space to sell their products. The marketplace is intended to be used by colombian companies.</p>
@@ -130,18 +132,21 @@
                         <div class="carousel-inner">
                           <div class="carousel-item active">
                             <img src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80" class="d-block w-100" alt="...">
+                            <!--No hay texto alternativo -->
                             <div class="carousel-caption d-none d-md-block">
                               <h5>I love cooking and watching gourmet channels</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
                             <img src="https://images.unsplash.com/photo-1588432815128-363254491e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" class="d-block w-100" alt="...">
+                            <!--No hay texto alternativo -->
                             <div class="carousel-caption d-none d-md-block">
                               <h5>I play paintball on weekends</h5>
                             </div>
                           </div>
                           <div class="carousel-item">
                             <img src="https://images.unsplash.com/photo-1532906619279-a4b7267faa66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" class="d-block w-100" alt="...">
+                            <!--No hay texto alternativo -->
                             <div class="carousel-caption d-none d-md-block">
                               <h5>I watch a lot of racing competitions influding F1</h5>
                             </div>
@@ -177,11 +182,15 @@
         <span class="text-muted">I hope you found my webpage interesting.</span>
       </div>
     </div>
+      
+   <!-- </footer>--> <!--Nunca se abre el footer-->
+
     
-    <!-- Review - Se añade un footer muy básico -->
+
     <footer class="bg-light text-center">
       <h1 style="font-size: x-large;" class="display-4 text-muted py-4">David Martinez Granados</h1>
     </footer>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
